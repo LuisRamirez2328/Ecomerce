@@ -1,13 +1,9 @@
 {
-    "apps": [
-      {
-        "name": "MyReactApp",
-        "script": "serve",
-        "args": "-s build",
-        "env": {
-          "PORT": 3000
-        }
-      }
-    ]
-  }
-  
+  "apps": [
+    {
+      "name": "ReactApp",
+      "script": "node_modules/react-scripts/scripts/start.js",
+      "watch": true
+    }
+  ]
+}
