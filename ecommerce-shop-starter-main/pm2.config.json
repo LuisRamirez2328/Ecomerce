@@ -1,8 +1,12 @@
 {
     "apps": [
       {
-        "name": "MyApp",
-        "script": "server.js"
+        "name": "MyReactApp",
+        "script": "serve",
+        "args": "-s build",
+        "env": {
+          "PORT": 3000
+        }
       }
     ]
   }
